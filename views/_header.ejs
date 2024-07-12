@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Habit Tracker</title>
+    <link rel="stylesheet" href="/css/header.css" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/f383b6eabf.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="nav">
+      <div class="title">
+        <a href="/">Habit Tracker</a>
+      </div>
+      <% if (locals.user) { %>
+      <div class="userPresent">
+        <div class="profilePic">
+          <i class="fas fa-user-circle fa-2x profilePic"></i>
+        </div>
+        <div class="userInfo">
+          <div class="nameOfUser"><%= user.name %></div>
+          <!-- <span class="str-line">|</span> -->
+          <div class="logOut">
+            <a href="/users/sign-out">
+              <i class="fa-solid fa-arrow-right-from-bracket"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <% } else { %>
+      <div class="noUser">
+        <ul>
+          <li><a href="/users/sign-in">Sign In</a></li>
+          <li><a href="/users/sign-up">Sign Up</a></li>
+        </ul>
+      </div>
+      <% } %>
+    </div>
+  </body>
+</html>

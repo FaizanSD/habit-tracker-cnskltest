@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f6f8fa; /* GitHub background color */
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #24292e; /* GitHub header background color */
+  color: #fff; /* GitHub text color */
+  height: 60px;
+  padding: 0 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* GitHub header shadow */
+}
+
+.title a {
+  color: #fff; /* GitHub link color */
+  text-decoration: none;
+  font-size: 24px; /* Increased font size */
+  font-weight: bold;
+}
+
+.title a:hover {
+  text-decoration: underline;
+}
+
+.userPresent,
+.noUser {
+  display: flex;
+  align-items: center;
+}
+
+.profilePic {
+  width: 40px; /* Adjust profile picture size */
+  height: 35px;
+  border-radius: 50%; /* Round profile picture */
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+}
+
+.str-line {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin-right: 4px;
+}
+.nameOfUser {
+  font-size: 20px; /* Increased font size */
+  font-weight: bold;
+  margin-right: 20px; /* Adjust spacing */
+}
+
+.logOut a {
+  color: #fff; /* GitHub link color */
+  text-decoration: none;
+  font-size: 26px; /* Increased font size */
+}
+
+.logOut a:hover {
+  text-decoration: underline;
+}
+
+.noUser ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.noUser li {
+  margin-left: 15px;
+}
+
+.noUser li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.noUser li a:hover {
+  text-decoration: underline;
+}

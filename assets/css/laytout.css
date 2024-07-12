@@ -1,0 +1,58 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Light gray background */
+  line-height: 1.6;
+}
+
+#layout-main {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff; /* White background for main content */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+/* Noty notifications container adjustments */
+.noty_theme__sunset {
+  background-color: #333;
+  color: #fff;
+  border-radius: 4px;
+  padding: 10px 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+}
+
+.noty_theme__sunset .noty_close {
+  color: #fff;
+  font-size: 14px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.noty_type__error {
+  background-color: #e74c3c; /* Red background for error notifications */
+}
+
+/* Adjust Noty notifications position */
+.noty_layout__bottomRight {
+  bottom: 20px;
+  right: 20px;
+}
+
+/* Style links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
