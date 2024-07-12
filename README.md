@@ -48,46 +48,48 @@ Once you have the application up and running, you can start using it by followin
 ```
 
 Habit Tracker
-|
-| |--->css
-|--->assets---->|--->img
-| |---> js
-|
-| |--->flashMiddleware.js
-|--->config---->|--->mongoose.js
-| |--->passport_local.js
-|
-| |-->habit_controller.js
-|--->controllers-->|-->home_controller.js
-| |-->user_controller.js
-|
-| |-->habit.js
-|--->models---->|
-| |-->user.js
-|
-|  
- | |-->habit.js
-|--->routes---->|-->index.js
-| |-->user.js
-|
-|  
- | |--->\_header.ejs
-| |--->404.ejs
-| |--->daily_view.ejs
-| |--->forget_password.ejs
-|--->views---->|--->home.ejs
-| |--->layout.ejs
-| |--->user_sign_in.ejs
-| |--->user_sign_up.ejs
-| |--->weekly_view.ejs
-|
-|-->node_modules
-|-->.gitignore
-|--> index.js
-|--> package-lock.json
-|-->package.json
+Habit Tracker
+    |
+    |               |--->css
+    |--->assets---->|--->img
+    |               |---> js
+    |
+    |               |--->flashMiddleware.js
+    |--->config---->|--->mongoose.js
+    |               |--->passport_local.js
+    |
+    |                  |-->habit_controller.js
+    |--->controllers-->|-->home_controller.js
+    |                  |-->user_controller.js
+    |
+    |               |-->habit.js
+    |--->models---->|
+    |               |-->user.js
+    |
+    |              
+    |               |-->habit.js
+    |--->routes---->|-->index.js
+    |               |-->user.js
+    |
+    |              
+    |              |--->_header.ejs
+    |              |--->404.ejs
+    |              |--->daily_view.ejs
+    |              |--->forget_password.ejs
+    |--->views---->|--->home.ejs
+    |              |--->layout.ejs
+    |              |--->user_sign_in.ejs
+    |              |--->user_sign_up.ejs
+    |              |--->weekly_view.ejs
+    |
+    |-->node_modules
+    |-->.gitignore
+    |--> index.js
+    |--> package-lock.json
+    |-->package.json
+    
+ ````
 
-```
 
 ## Contributing
 Contributions are always welcome! If you have any suggestions for improving this application, please feel free to create a pull request or open an issue.
