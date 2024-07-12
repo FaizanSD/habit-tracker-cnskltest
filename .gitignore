@@ -1,5 +1,4 @@
+.env
 node_modules/ 
-.env/
 
 
-git remote add origin https://github.com/FaizanSD/habit-tracker-cnskltest.git

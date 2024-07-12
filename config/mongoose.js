@@ -1,17 +1,15 @@
+require("dotenv").config();
 const mongoose = require("mongoose");
 
-// storing the db on mongo atlas
-// const DB = process.env.DB;
-// const DB = "mongodb+srv://himadrinayak:12345@cluster0.h7n86ah.mongodb.net/habit-tracker?retryWrites=true&w=majority";
+const DB =
+  "mongodb+srv://faizans:fixamongodb@cluster0.r946wrk.mongodb.net/habit-tracker?retryWrites=true&w=majority&appName=Cluster0";
 
-mongoose.connect("mongodb://127.0.0.1/habit_tracker");
-
-// mongoose
-//   .connect(DB)
-//   .then(() => {
-//     console.log("Connection successful!");
-//   })
-//   .catch((err) => console.log("no connection " + err));
+mongoose
+  .connect(DB)
+  .then(() => {
+    console.log("Connection successful!");
+  })
+  .catch((err) => console.log("no connection " + err));
 
 const db = mongoose.connection;
 

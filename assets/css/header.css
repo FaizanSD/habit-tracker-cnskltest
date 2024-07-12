@@ -1,4 +1,5 @@
 body {
+  background-image: url("../img/3.jpg");
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #f6f8fa; /* GitHub background color */
@@ -8,7 +9,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #24292e; /* GitHub header background color */
+  background-color: #000000; /* GitHub header background color */
   color: #fff; /* GitHub text color */
   height: 60px;
   padding: 0 20px;
@@ -43,11 +44,6 @@ body {
   align-items: center;
 }
 
-.str-line {
-  font-size: 1.5rem;
-  font-weight: bolder;
-  margin-right: 4px;
-}
 .nameOfUser {
   font-size: 20px; /* Increased font size */
   font-weight: bold;
