@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # HabitTracker
 
 A web application which help you to create, update, delete and track your habit on daily basis.
@@ -95,3 +96,6 @@ Contributions are always welcome! If you have any suggestions for improving this
 
 
 ```
+=======
+# habit-tracker-cnskltest
+>>>>>>> origin/main
