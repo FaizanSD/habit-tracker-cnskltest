@@ -41,7 +41,7 @@ app.use(
     store: MongoStore.create(
       {
         mongoUrl:
-          "mongodb+srv://himadrinayak:12345@cluster0.h7n86ah.mongodb.net/habit-tracker?retryWrites=true&w=majority",
+          "mongodb+srv://faizans:fixamongodb@cluster0.r946wrk.mongodb.net/habit-tracker?retryWrites=true&w=majority&appName=Cluster0",
         autoRemover: "disabled",
       },
       function (err) {
