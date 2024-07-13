@@ -154,7 +154,7 @@ body {
 .habit-container {
   display: flex;
   justify-content: space-evenly;
-  background-color: rgba(255, 255, 255, 0.9); /* Transparent white background */
+  background-color: rgba(204, 204, 204, 0.9); /* Transparent white background */
   width: 70%;
   height: 90px;
   margin-right: 170px;
@@ -167,6 +167,7 @@ body {
 .habit-title {
   margin-top: 35px;
   width: 20%;
+  color: rgb(204, 204, 204, 0.9);
 }
 
 .day-container {
