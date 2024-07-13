@@ -6,130 +6,32 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: #141414;
-  width: 100%;
-}
-
-.signup-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 100vw;
-}
-
-.signup {
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 40px;
-  width: 50vw;
-}
-
-h1 {
-  color: #24292e;
-  font-size: 24px;
-  font-weight: 600;
-  margin-bottom: 20px;
-}
-
-form .form-group {
-  margin-bottom: 20px;
-}
-
-form label {
-  color: #586069;
-  display: block;
-  font-size: 14px;
-  font-weight: 600;
-  margin-bottom: 8px;
-}
-
-form input[type="text"],
-form input[type="email"],
-form input[type="password"] {
-  border: 1px solid #d1d5da;
-  border-radius: 6px;
-  color: #24292e;
-  font-size: 16px;
-  padding: 12px;
-  width: 100%;
-}
-
-form input[type="text"]:focus,
-form input[type="email"]:focus,
-form input[type="password"]:focus {
-  border-color: #0366d6;
-  outline: none;
-}
-
-button {
-  background-color: #28a745;
-  border: none;
-  border-radius: 6px;
-  color: #fff;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 600;
-  padding: 14px;
-  width: 100%;
-  transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: #218838;
-}
-
-p {
-  margin-top: 20px;
-  text-align: center;
-}
-
-p a {
-  color: #0366d6;
-  text-decoration: none;
-}
-
-p a:hover {
-  text-decoration: underline;
-}
-
-/* Responsive adjustments */
-@media screen and (max-width: 480px) {
-  .signup {
-    width: 90%;
-  }
-}
-/* Reset default styles */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  background-color: #131313;
-}
-
-.signup-container {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #f0f2f5; /* Facebook's background color */
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+}
+
 .signup {
-  background-color: #fff;
+  background-color: #fff; /* Facebook's form background color */
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   padding: 40px;
   width: 400px;
 }
 
 h1 {
-  color: #24292e;
+  color: #1877f2; /* Facebook's primary color */
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 20px;
@@ -140,7 +42,7 @@ form .form-group {
 }
 
 form label {
-  color: #586069;
+  color: #65676b; /* Facebook's secondary text color */
   display: block;
   font-size: 14px;
   font-weight: 600;
@@ -150,9 +52,9 @@ form label {
 form input[type="text"],
 form input[type="email"],
 form input[type="password"] {
-  border: 1px solid #d1d5da;
+  border: 1px solid #dddfe2; /* Facebook's input border color */
   border-radius: 6px;
-  color: #24292e;
+  color: #1d2129; /* Facebook's text color */
   font-size: 16px;
   padding: 12px;
   width: 100%;
@@ -161,12 +63,12 @@ form input[type="password"] {
 form input[type="text"]:focus,
 form input[type="email"]:focus,
 form input[type="password"]:focus {
-  border-color: #0366d6;
+  border-color: #1877f2; /* Facebook's focus border color */
   outline: none;
 }
 
 button {
-  background-color: #28a745;
+  background-color: #1877f2; /* Facebook's primary button color */
   border: none;
   border-radius: 6px;
   color: #fff;
@@ -179,7 +81,7 @@ button {
 }
 
 button:hover {
-  background-color: #218838;
+  background-color: #166fe5; /* Darker shade of primary button color on hover */
 }
 
 p {
@@ -188,7 +90,7 @@ p {
 }
 
 p a {
-  color: #0366d6;
+  color: #1877f2; /* Facebook's link color */
   text-decoration: none;
 }
 

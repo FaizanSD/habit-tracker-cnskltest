@@ -1,25 +1,27 @@
 body {
-  background-image: url("../img/3.jpg");
+  /* background-image: url("../img/3.jpg");/ */
+  background-color: rgb(234, 241, 248);
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f6f8fa; /* GitHub background color */
+  background-color: #f0f2f5; /* Facebook background color */
+  background-size: cover; /* Ensure background covers the viewport */
 }
 
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #000000; /* GitHub header background color */
-  color: #fff; /* GitHub text color */
+  background-color: #3b5998; /* Facebook header background color */
+  color: #fff; /* Facebook text color */
   height: 60px;
   padding: 0 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* GitHub header shadow */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Header shadow */
 }
 
 .title a {
-  color: #fff; /* GitHub link color */
+  color: #fff; /* Facebook link color */
   text-decoration: none;
-  font-size: 24px; /* Increased font size */
+  font-size: 24px; /* Adjusted font size */
   font-weight: bold;
 }
 
@@ -35,8 +37,9 @@ body {
 
 .profilePic {
   width: 40px; /* Adjust profile picture size */
-  height: 35px;
+  height: 40px;
   border-radius: 50%; /* Round profile picture */
+  margin-right: 10px; /* Adjust spacing */
 }
 
 .userInfo {
@@ -45,15 +48,15 @@ body {
 }
 
 .nameOfUser {
-  font-size: 20px; /* Increased font size */
+  font-size: 18px; /* Adjusted font size */
   font-weight: bold;
-  margin-right: 20px; /* Adjust spacing */
+  margin-right: 10px; /* Adjust spacing */
 }
 
 .logOut a {
-  color: #fff; /* GitHub link color */
+  color: #fff; /* Facebook link color */
   text-decoration: none;
-  font-size: 26px; /* Increased font size */
+  font-size: 20px; /* Adjusted font size */
 }
 
 .logOut a:hover {
